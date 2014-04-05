@@ -1,7 +1,0 @@
-
-tests?
-command line tool with write to file (simple text, maybe json)... 
-
-extract to redis, new cl wrap for redis acces via ruby script
-clojure redis interaction script
-web io

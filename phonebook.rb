@@ -14,8 +14,8 @@ class Phonebook
       end
     end
     @filename ||= "phonebooks/" + params[0] + ".pb"
-    # open
     @params = params
+    open if phonebook?
   end
 
   def create
@@ -25,6 +25,7 @@ class Phonebook
     else
       puts "File already exists!"
     end
+    open
   end
 
   def phonebook?
